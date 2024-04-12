@@ -27,5 +27,8 @@ object juan{
 	method leGusta(cosa) = not cosa.color().esFuerte() or cosa.peso().between(1200, 1800)
 }
 
-
+object roberto{
+	
+	
+}
 
