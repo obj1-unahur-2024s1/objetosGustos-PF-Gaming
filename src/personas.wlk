@@ -3,9 +3,15 @@ import caracteristicas.*
 
 object rosa {
 	
-	method leGusta(cosa) = cosa.peso() <= 2000
+	method leGustaPeso(cosa) = cosa.peso() <= 2000
 	
+<<<<<<< HEAD
 	}
+=======
+	method leGustaColor(cosa) = cosa.color().esFuerte()
+	
+}
+>>>>>>> 221356e049a5b22ef9da6e6947e978ef81a64a07
 
 
 
