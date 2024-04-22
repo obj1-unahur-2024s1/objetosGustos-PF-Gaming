@@ -5,14 +5,9 @@ object rosa {
 	
 	method leGustaPeso(cosa) = cosa.peso() <= 2000
 	
-<<<<<<< HEAD
-	}
-=======
 	method leGustaColor(cosa) = cosa.color().esFuerte()
 	
 }
->>>>>>> 221356e049a5b22ef9da6e6947e978ef81a64a07
-
 
 
 object estefania{

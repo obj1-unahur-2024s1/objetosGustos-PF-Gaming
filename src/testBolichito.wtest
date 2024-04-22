@@ -1,0 +1,23 @@
+import bolichito.*
+import caracteristicas.*
+import objetos.*
+import personas.*
+
+test "bolichito brillante" {
+	bolichito.ponerEnMostrador(munieco)
+	bolichito.ponerEnVidriera(placa)
+	
+	assert.that(bolichito.esBrillante())
+	
+	bolichito.ponerEnVidriera(biblioteca)
+	assert.notThat(bolichito.esBrillante())
+
+}
+
+test "bolichito monocromático"{
+	bolichito.ponerEnMostrador(remera)
+	placa.cambiarColor(rojo)
+	bolichito.ponerEnVidriera(placa)
+	
+	assert.that(bolichito.esMonocromatico())
+}

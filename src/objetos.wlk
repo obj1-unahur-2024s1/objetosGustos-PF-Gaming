@@ -56,8 +56,6 @@ object placa {
 	
 	method material() = cobre
 	
-	
-	
 	method color() = colorActual
 	
 	method cambiarColor(nuevo){
